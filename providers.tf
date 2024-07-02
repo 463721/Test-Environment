@@ -15,10 +15,10 @@ terraform {
   }
 
   cloud {
-    organization = "wegmans"
+    organization = "Ozanatron"
 
     workspaces {
-      name = "ei-azure-stack-hci-production"
+      name = "ozan-lab-wegmans"
     }
   }
 }
