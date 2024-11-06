@@ -1,12 +1,12 @@
-terraform {
-  cloud {
+terraform { 
+  cloud { 
+    
+    organization = "Ozanatron" 
 
-    organization = "OzOrgTest"
-
-    workspaces {
-      name = "TestOzOrg"
-    }
-  }
+    workspaces { 
+      name = "ozan-lab-wegmans" 
+    } 
+  } 
 }
 
 provider "azurerm" {
